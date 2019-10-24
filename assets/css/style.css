@@ -1,5 +1,5 @@
 .landing-page {
-    background-image: url(assets/images/athens-background.jpg);
+    background-image: url("assets/images/ternarygradient.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,5 +7,9 @@
 }
 
 h1 {
-    color: red;
+    color: yellow;
+}
+
+h2 {
+    color: green;
 }
