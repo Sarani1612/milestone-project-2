@@ -58,6 +58,25 @@ h2 {
     overflow: auto;
 }
 
+.cities-images {
+    background-size: cover;
+    min-height: 300px;
+    width: auto;
+}
+
+#paris {
+    background-image: url("/assets/images/paris.jpg");
+}
+
+#london {
+    background-image: url("/assets/images/london-unsplash.jpg");
+}
+
+#prague {
+    background-image: url("/assets/images/prague-unsplash.jpg");
+}
+
+
 
 /*Cities container*/
 
