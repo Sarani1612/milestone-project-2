@@ -1,5 +1,4 @@
 /*Landing Page*/
-
 .landing-page {
     background-image: url("/assets/images/background.jpg");
     background-size: cover;
@@ -31,17 +30,17 @@ h1 {
     font-weight: 700;
     font-size: 5rem;
     color: #FB4305;
-    text-shadow: 1px 1px #326E8E;
+    text-shadow: 2px 2px 1px #326E8E;
     padding-bottom: 2rem;
 }
 
 h2 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.5rem;
     color: #FB4305;
-    text-shadow: 1px 1px #326E8E;
+    text-shadow: 2px 2px 1px #326E8E;
 }
-
 /*Landing Page*/
 
 
@@ -58,6 +57,8 @@ h2 {
     color: #FB4305;
     overflow: auto;
 }
+
+
 /*Cities container*/
 
 
