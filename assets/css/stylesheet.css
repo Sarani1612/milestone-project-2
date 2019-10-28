@@ -32,12 +32,22 @@ h2 {
     font-family: 'Dosis', sans-serif;
 }
 
-
-
 /*Landing Page*/
 
 
 /*Cities container*/
+.cities {
+    background-image: url("/assets/images/cities-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    padding: 1px;
+    color: #FB4305;
+    overflow: auto;
+}
 /*Cities container*/
 
 
