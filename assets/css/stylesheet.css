@@ -1,16 +1,19 @@
 /*Landing Page*/
 
 .landing-page {
-    background-image: url("/assets/images/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
     margin: 0;
     padding: 1px;
-    color: #FB4305;
     overflow: auto;
+}
+
+.landing-bg {
+    background-image: url("/assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .overlay {
@@ -22,14 +25,23 @@
     background-color: rgba(133, 160, 182, 0.3);
 }
 
+.landing-page-text {
+    padding: 50px 100px;
+}
+
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
     font-size: 7.5rem;
+    color: #FB4305;
+    text-shadow: 1px 1px #326E8E;
 }
 
 h2 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #326E8E;
+    text-shadow: 1px 1px #FB4305;
+    font-weight: 600;
 }
 
 /*Landing Page*/
