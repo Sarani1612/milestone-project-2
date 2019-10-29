@@ -1,6 +1,6 @@
 /*Landing Page*/
 .landing-page {
-    background-image: url("/assets/images/background.jpg");
+    background-image: url("assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ h2 {
 
 /*Cities container*/
 .cities {
-    background-image: url("/assets/images/cities-bg.jpg");
+    background-image: url("assets/images/cities-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,15 +65,15 @@ h2 {
 }
 
 #paris {
-    background-image: url("/assets/images/paris.jpg");
+    background-image: url("assets/images/paris.jpg");
 }
 
 #london {
-    background-image: url("/assets/images/london-unsplash.jpg");
+    background-image: url("assets/images/london-unsplash.jpg");
 }
 
 #prague {
-    background-image: url("/assets/images/prague-unsplash.jpg");
+    background-image: url("assets/images/prague-unsplash.jpg");
 }
 
 
