@@ -76,7 +76,29 @@ h2 {
     background-image: url("assets/images/prague-unsplash.jpg");
 }
 
+#vienna {
+    background-image: url("assets/images/vienna.jpg");
+}
 
+#athens {
+    background-image: url("assets/images/athens-unsplash.jpg");
+}
+
+#rome {
+    background-image: url("assets/images/rome.jpg");
+}
+
+#stockholm {
+    background-image: url("assets/images/stockholm-unsplash.jpg");
+}
+
+#dublin {
+    background-image: url("assets/images/dublin.jpg");
+}
+
+#helsinki {
+    background-image: url("assets/images/helsinki-unsplash.jpg");
+}
 
 /*Cities container*/
 
