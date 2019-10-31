@@ -69,6 +69,16 @@ h2 {
     width: auto;
 }
 
+.city-div {
+    border: 2px solid #326E8E;
+    margin: 10px;
+}
+
+.cities-images ~ p {
+    color: #326E8E;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #paris {
     background-image: url("../images/paris.jpg");
 }
