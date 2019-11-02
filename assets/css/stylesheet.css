@@ -3,7 +3,7 @@ html {
 }
 
 /*Landing Page*/
-.landing-page {
+.landing-page, .contact {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
@@ -71,12 +71,14 @@ h2 {
 
 .city-div {
     border: 2px solid #326E8E;
-    margin: 10px;
+    margin: 5px;
 }
 
 .cities-images ~ p {
     color: #326E8E;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 5px;
 }
 
 #paris {
@@ -120,5 +122,15 @@ h2 {
 /*Contact container*/
 .contact{
     height: 100vh;
+    position: relative;
+}
+
+.contact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(133, 160, 182, 0.55);
 }
 /*Contact container*/
