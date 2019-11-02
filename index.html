@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="container-fluid cities">
-		<div class="row">
+		<div class="row cities-content">
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div">
 					<div class="cities-images" id="paris"></div>
@@ -86,35 +86,39 @@
 
 	<div class="container-fluid contact">
 		<div class="contact-overlay">&nbsp;</div>
-		<div class="contact-content">
-			<form>
-				<div class="form-group">
-					<label for="firstname">First Name</label>
-					<input type="text" class="form-control" id="firstname" placeholder="Last Name">
-                </div>
-				<div class="form-group">
-						<label for="lastname">Last Name</label>
-						<input type="text" class="form-control" id="lastname" placeholder="Last Name">
-                </div>
-                <div class="form-group">
-					<label for="emailaddress">Email Address</label>
-					<input type="text" class="form-control" id="emailaddress" placeholder="Email Address">
-                </div>
-                <div class="form-group">
-					<label for="dates">Preferred Travel Dates</label>
-					<input type="text" class="form-control" id="dates" placeholder="Preferred Travel Dates">
-                </div>
-                <div class="form-group">
-					<label for="nights">Number of nights</label>
-					<input type="number" class="form-control" id="nights" placeholder="How many nights">
-                </div>
-                <div class="form-group">
-					<label for="comments">Comments</label>
-					<textarea class="form-control" id="comments" rows="5" placeholder="Please enter your query here"></textarea>
-                </div>
-
-			</form>
-		</div>
+            <div class="contact-content">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstname">First Name</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="Last Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lastname">Last Name</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <label for="emailaddress">Email Address</label>
+                            <input type="text" class="form-control" id="emailaddress" placeholder="Email Address">
+                        </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="dates">Preferred Travel Dates</label>
+                            <input type="text" class="form-control" id="dates" placeholder="Preferred Travel Dates">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="nights">Number of nights</label>
+                            <input type="number" class="form-control" id="nights" placeholder="Number of nights">
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <label for="comments">Comments</label>
+                            <textarea class="form-control" id="comments" rows="5" placeholder="Please enter your query here"></textarea>
+                        </div>
+                </form>
+            </div>
+	    </div>
 	</div>
 
 

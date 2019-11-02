@@ -60,7 +60,11 @@ h2 {
     padding: 30px;
     color: #FB4305;
     overflow: auto;
+}
 
+.cities-content {
+    max-width: 2000px;
+    margin: auto;
 }
 
 .cities-images {
@@ -137,5 +141,11 @@ h2 {
 .contact-content {
     position: relative;
     z-index: 1;
+    color: #FB4305;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px #326E8E;
+    max-width: 1000px;
+    margin: auto;
 }
 /*Contact container*/
