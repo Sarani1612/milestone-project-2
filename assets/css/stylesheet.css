@@ -62,6 +62,10 @@ h2 {
     overflow: auto;
 }
 
+.cities > h2 {
+    padding-bottom: 15px;
+}
+
 .cities-content {
     max-width: 2000px;
     margin: auto;
@@ -147,5 +151,9 @@ h2 {
     text-shadow: 1px 1px 1px #326E8E;
     max-width: 1000px;
     margin: auto;
+}
+
+.contact-content h2 {
+    padding: 30px;
 }
 /*Contact container*/
