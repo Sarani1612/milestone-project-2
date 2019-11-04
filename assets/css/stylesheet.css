@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 /*Landing Page*/
 .landing-page, .contact {
     background-image: url("../images/background.jpg");
@@ -39,10 +44,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     font-size: 1.5rem;
     color: #FB4305;
+    font-weight: 800;
     text-shadow: 2px 2px 1px #326E8E;
 }
 /*Landing Page*/
@@ -83,8 +87,6 @@ h2 {
 
 .cities-images ~ p {
     color: #326E8E;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
     margin: 5px;
 }
 
@@ -144,8 +146,6 @@ h2 {
     position: relative;
     z-index: 1;
     color: #FB4305;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
     text-shadow: 1px 1px 1px #326E8E;
     max-width: 1000px;
     margin: auto;
@@ -153,5 +153,11 @@ h2 {
 
 .contact-content h2 {
     padding: 30px;
+}
+
+.form-button {
+    color:  #FB4305;
+    background-color: #326E8E;
+    margin-bottom: 15px;
 }
 /*Contact container*/
