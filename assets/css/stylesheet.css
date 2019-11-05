@@ -7,18 +7,21 @@ body {
     font-weight: 800;
 }
 
-/*Landing Page*/
+/* Landing Page */
 .landing-page, .contact {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
     text-align: center;
     margin: 0;
     padding: 1px;
     overflow: auto;
+}
+
+.landing-page {
+    height: 100vh;
 }
 
 .overlay {
@@ -49,10 +52,10 @@ h2 {
     font-weight: 800;
     text-shadow: 2px 2px 1px #326E8E;
 }
-/*Landing Page*/
+/* Landing Page */
 
 
-/*Cities container*/
+/* Cities container */
 .cities {
     background-image: url("../images/cities-bg.jpg");
     background-size: cover;
@@ -125,10 +128,10 @@ h2 {
 #helsinki {
     background-image: url("../images/helsinki-unsplash.jpg");
 }
-/*Cities container*/
+/* Cities container */
 
 
-/*Contact container*/
+/* Contact container */
 .contact{
     position: relative;
 }
@@ -160,4 +163,14 @@ h2 {
     background-color: #326E8E;
     margin-bottom: 15px;
 }
-/*Contact container*/
+/* Contact container */
+
+/* Footer */
+footer {
+    display: block;
+    bottom: 0;
+    width: 100%;
+    background-color: #FB4305;
+    height: 30%;
+}
+/* Footer */
