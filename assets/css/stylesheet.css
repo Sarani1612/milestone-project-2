@@ -171,6 +171,17 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #FB4305;
-    height: 30%;
+    color: #326E8E;
 }
+
+.footer-container {
+    padding: 5px;
+    text-align: center;
+}
+
+.sm-icons {
+    color: #326E8E;
+    padding: 10px;
+}
+
 /* Footer */
