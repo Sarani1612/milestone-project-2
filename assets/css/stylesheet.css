@@ -163,6 +163,12 @@ h2 {
     background-color: #326E8E;
     margin-bottom: 15px;
 }
+
+.form-button:hover {
+    color:  #FB4305;
+    background-color: #326E8E;
+    transform: scale(1.1);
+}
 /* Contact container */
 
 /* Footer */
