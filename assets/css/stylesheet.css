@@ -184,4 +184,9 @@ footer {
     padding: 10px;
 }
 
+.sm-icons:hover {
+    color: #285871;
+    transform: scale(1.1);
+}
+
 /* Footer */
