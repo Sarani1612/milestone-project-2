@@ -41,14 +41,14 @@ body {
 h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #FB4305;
     text-shadow: 2px 2px 1px #326E8E;
     padding-bottom: 2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #FB4305;
     font-weight: 700;
     text-shadow: 2px 2px 1px #326E8E;
@@ -206,6 +206,13 @@ footer {
 
 
 /* Media Queries */
+
+@media only screen and (min-width: 768px) {
+
+    .landing-text {
+        padding: 75px 100px;
+    }
+}
 
 @media only screen and (min-width: 992px) {
 
