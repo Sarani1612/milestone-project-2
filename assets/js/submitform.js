@@ -1,5 +1,5 @@
 function submitForm(contactForm) {
-    emailjs.send("default_service", "theatre_travels", {
+    emailjs.send("gmail", "theatre_travels", {
         "fullname": contactForm.name.value,
         "emailaddress": contactForm.emailaddress.value,
         "comments": contactForm.comments.value,
