@@ -153,10 +153,16 @@ h2 {
     text-shadow: 1px 1px 1px #326E8E;
     max-width: 1000px;
     margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .contact-content h2 {
     padding: 30px;
+}
+
+.input-field {
+    border: 1px solid #FB4305;
 }
 
 .form-button {
