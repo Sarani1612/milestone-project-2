@@ -12,6 +12,7 @@ function submitForm(contactForm) {
     .then(
         function(response) {
             document.querySelector("button").innerHTML="Sent!";
+            alert("Success!", response);
             console.log("Success!", response);
         },
         function(error) {
