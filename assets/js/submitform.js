@@ -18,4 +18,6 @@ function submitForm(contactForm) {
             alert("Form failed to submit. \r\n Response:\n " + JSON.stringify(err));
             console.log("Failed", error);
         });
+
+    return false;
 }
