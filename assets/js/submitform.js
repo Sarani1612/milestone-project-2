@@ -1,17 +1,17 @@
 function submitForm(contactForm) {
 
     var formDetails = {
-        "fullname": contactForm.name.value,
+        "fullname": contactForm.fullname.value,
         "emailaddress": contactForm.emailaddress.value,
         "comments": contactForm.comments.value,
-        "dates": contactForm.dates.value,
+        "dates": contactForm.date.value,
         "nights": contactForm.nights.value
     };
 
     emailjs.send("gmail", "theatre_travels", formDetails)
     .then(
         function(response) {
-            document.querySelector("button").text("Sent!");
+            document.querySelector("button").innerHTML="Sent!";
             console.log("Success!", response);
         },
         function(error) {
@@ -19,5 +19,4 @@ function submitForm(contactForm) {
             console.log("Failed", error);
         });
 
-    return false;
 }
