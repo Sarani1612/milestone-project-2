@@ -172,6 +172,12 @@ h2 {
     margin-bottom: 15px;
 }
 
+.form-button-sent {
+    color: #326E8E;
+    background-color: #FB4305;
+    margin-bottom: 15px;
+}
+
 .form-button:hover {
     color:  #FB4305;
     background-color: #326E8E;
