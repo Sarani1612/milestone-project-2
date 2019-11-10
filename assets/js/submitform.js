@@ -13,6 +13,7 @@ function submitForm(contactForm) {
         function(response) {
             document.querySelector("button").innerHTML="Sent!";
             alert("Success!", response);
+            document.getElementById("contact-form").reset();
             console.log("Success!", response);
         },
         function(error) {
