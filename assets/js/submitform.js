@@ -11,7 +11,8 @@ function submitForm(contactForm) {
     emailjs.send("gmail", "theatre_travels", formDetails)
     .then(
         function(response) {
-            document.querySelector("button").innerHTML="Sent!".classList.replace("form-button", "form-button-sent");
+            document.querySelector("button").innerHTML="Sent!";
+            document.querySelector("button").classList.replace("form-button", "form-button-sent");
             alert("Success!", response);
             document.getElementById("contact-form").reset();
             console.log("Success!", response);
