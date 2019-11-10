@@ -20,4 +20,5 @@ function submitForm(contactForm) {
             console.log("Failed", error);
         });
 
+    return false;
 }
