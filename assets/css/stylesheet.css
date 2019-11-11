@@ -184,7 +184,9 @@ h2 {
 .form-button:hover {
     color:  #FB4305;
     background-color: #326E8E;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 /* Contact container */
 
@@ -209,7 +211,9 @@ footer {
 
 .sm-icons:hover {
     color: #285871;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 /* Footer */
