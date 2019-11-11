@@ -221,6 +221,12 @@ footer {
 
 /* Media Queries */
 
+@media (max-width: 992px) {
+    .landing-page, .contact {
+        background-attachment: scroll;
+    }
+}
+
 @media only screen and (min-width: 768px) {
 
     .landing-text {
@@ -238,10 +244,4 @@ footer {
         height: 20vh;
     }
 
-}
-
-@media (max-width: 992px) {
-    .landing-page, .contact {
-        background-attachment: scroll;
-    }
 }
