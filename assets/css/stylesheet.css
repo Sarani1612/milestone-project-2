@@ -10,7 +10,7 @@ body {
 
 /* Landing Page */
 .landing-page, .contact {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/big-ben-bg.jpg");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
