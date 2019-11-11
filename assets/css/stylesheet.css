@@ -232,10 +232,7 @@ footer {
     .landing-text {
         padding: 75px 100px;
     }
-}
-
-@media only screen and (min-width: 992px) {
-
+    
     .contact {
         height: 80vh;
     }
@@ -243,5 +240,4 @@ footer {
     footer {
         height: 20vh;
     }
-
 }
