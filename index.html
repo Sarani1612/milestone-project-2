@@ -37,10 +37,23 @@
         <h2>Destinations</h2>
 		<div class="row cities-content">
 			<div class="col-md-6 col-lg-4">
-				<div class="city-div">
+				<div id="paris-div" class="city-div">
 					<div class="cities-images" id="paris"></div>
 					<p>Paris</p>
 				</div>
+                <div id="modal-paris" class="modal">
+                    <div class="modal-content">
+                        <div class="container">
+                            <h2>Paris</h2>
+                            <div class="row">
+                                <div id="map-paris" class="col-md-6"></div>
+                                <div class="col-md-6">In Paris you will be staying at the hotel _____, 
+                                and on the night of the show, you will be dining at ____.
+                                The show will take place in the _____</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 			</div>
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div">
@@ -167,6 +180,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
+    <script src="assets/js/map.js"></script>
     <script src="assets/js/submitform.js"></script>
 </body>
 
