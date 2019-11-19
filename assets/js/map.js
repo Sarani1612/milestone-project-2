@@ -1,15 +1,23 @@
 window.onload = function(){ 
 
-    var modal = document.getElementById("modal-paris");
-    var pDiv = document.getElementById("paris-div");
+//Loop for opening modals
 
-    pDiv.onclick = function() {
-        modal.style.display = "block";
+    var cityDiv = document.getElementsByClassName("city-div");
+
+    for (var i = 0; i < cityDiv.length; i++) {
+        var thisCityDiv = cityDiv[i];
+        thisCityDiv.addEventListener("click", function(){
+            var modal = document.getElementById(this.dataset.modal);
+            $(modal).show();
+        }, false);
+
     }
 
+// event for closing modals when clicking outside of it
+
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target.className == "modal") {
+            $(".modal").hide();
         }
     }
 
