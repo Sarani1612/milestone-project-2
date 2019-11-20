@@ -3,7 +3,7 @@ function submitForm(contactForm) {
     (function(){
             emailjs.init("user_ewAp2WLr4rekNLnkVnUvN");
         })();
-
+        
     var formDetails = {
         "fullname": contactForm.fullname.value,
         "emailaddress": contactForm.emailaddress.value,
