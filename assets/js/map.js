@@ -21,7 +21,7 @@ window.onload = function(){
         }
     }
 
-
+};
 
 // Initializing map
 
@@ -32,12 +32,12 @@ window.onload = function(){
         var odeon = {lat: 48.849493, lng: 2.338734};
         // Map centered on hotel
         var map = new google.maps.Map(
-            document.$('#map-paris'), {zoom: 4, center: senat});
+            document.getElementById('map-paris'), {zoom: 4, center: senat});
         // Markers for hotel, restaurant and theatre
         var marker = new google.maps.Marker({position: senat, map: map});
         var marker2 = new google.maps.Marker({position: epidon, map: map});
         var marker3 = new google.maps.Marker({position: odeon, map: map});
     }
 
-};
+
 

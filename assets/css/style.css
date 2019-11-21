@@ -165,7 +165,7 @@ h2 {
 }
 
 #map-paris {
-    height: 100%;
+    min-height: 360px;
 }
 
 /* Modals */
