@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Theatre Travels</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:700|Montserrat+Alternates:700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat+Alternates:700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -246,18 +246,18 @@
     <!-- Contact section -->
 	<div class="container-fluid contact">
 		<div class="contact-overlay">&nbsp;</div>
-            <div class="contact-content">
-                <!-- Contact Form -->
-                <form id="contact-form" onsubmit="return submitForm(this); return false">
-                    <h2>Contact us to book now!</h2>
-                        <div class="form-group">
-                            <label for="fullname">Full Name</label>
-                            <input type="text" name="fullname" class="form-control input-field" id="fullname" placeholder="Full Name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="emailaddress">Email Address</label>
-                            <input type="email" name="emailaddress" class="form-control input-field" id="emailaddress" placeholder="Email Address" required>
-                        </div>
+        <div class="contact-content">
+            <!-- Contact Form -->
+            <form id="contact-form" onsubmit="return submitForm(this); return false">
+                <h2>Contact us to book now!</h2>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" name="fullname" class="form-control input-field" id="fullname" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailaddress">Email Address</label>
+                        <input type="email" name="emailaddress" class="form-control input-field" id="emailaddress" placeholder="Email Address" required>
+                    </div>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="date">Preferred Travel Date</label>
@@ -268,15 +268,14 @@
                             <input type="number" name="nights" class="form-control input-field" id="nights" placeholder="Number of nights">
                         </div>
                     </div>
-                        <div class="form-group">
-                            <label for="comments">Comments</label>
-                            <textarea name="comments" class="form-control input-field" id="comments" rows="5" placeholder="Please enter your query here" required></textarea>
-                        </div>
-                    <button type="submit" class="btn btn-dark btn-lg form-button">Send!</button>
-                </form>
-                <!-- /Contact Form -->
-            </div>
-
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" class="form-control input-field" id="comments" rows="5" placeholder="Please enter your query here" required></textarea>
+                    </div>
+                <button type="submit" class="btn btn-dark btn-lg form-button">Send!</button>
+            </form>
+            <!-- /Contact Form -->
+        </div>
 	</div>
     <!-- /Contact section -->
 
