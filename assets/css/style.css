@@ -21,7 +21,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 1px;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
 }
 
@@ -160,9 +160,7 @@ h2 {
     background-repeat: no-repeat;
     margin: auto;
     padding: 20px;
-    border: 1px solid 326E8E;
     width: 80%;
-    height: 90%;
     color: #326E8E;
 }
 
