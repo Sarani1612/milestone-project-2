@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- Landing Page -->
 	<div class="container-fluid landing-page">
 		<div class="overlay">&nbsp;</div>
 		<div class="row">
@@ -25,15 +26,19 @@
 			</div>
 		</div>
 	</div>
+    <!-- /Landing Page -->
 
+    <!-- Destinations section with clickable images and modals -->
 	<div class="container-fluid cities">
         <h2>Destinations</h2>
 		<div class="row cities-content">
+            <!-- Paris -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-paris">
 					<div class="cities-images" id="paris"></div>
 					<p>Paris</p>
 				</div>
+                <!-- Paris modal with map and text -->
                 <div id="modal-paris" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -47,12 +52,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Paris modal with map and text -->
 			</div>
+            <!-- /Paris -->
+            <!-- London -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-london">
 					<div class="cities-images" id="london"></div>
 					<p>London</p>
 				</div>
+                <!-- London modal with map and text -->
                 <div id="modal-london" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -66,12 +75,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /London modal with map and text -->
 			</div>
+            <!-- /London -->
+            <!-- Prague -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-prague">
 					<div class="cities-images" id="prague"></div>
 					<p>Prague</p>
 				</div>
+                <!-- Prague modal with map and text -->
                 <div id="modal-prague" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -85,12 +98,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Prague modal with map and text -->
 			</div>
+            <!-- / Prague -->
+            <!-- Vienna -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-vienna">
 					<div class="cities-images" id="vienna"></div>
 					<p>Vienna</p>
 				</div>
+                <!-- Vienna modal with map and text -->
                 <div id="modal-vienna" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -104,12 +121,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Vienna modal with map and text -->
 			</div>
+            <!-- /Vienna -->
+            <!-- Athens -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-athens">
 					<div class="cities-images" id="athens"></div>
 					<p>Athens</p>
 				</div>
+                <!-- Athens modal with map and text -->
                 <div id="modal-athens" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -123,12 +144,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Athens modal with map and text -->
 			</div>
+            <!-- /Athens -->
+            <!-- Rome -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-rome">
 					<div class="cities-images" id="rome"></div>
 					<p>Rome</p>
 				</div>
+                <!-- Rome modal with map and text -->
                 <div id="modal-rome" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -142,12 +167,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Rome modal with map and text -->
 			</div>
+            <!-- /Rome -->
+            <!-- Stockholm -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-stockholm">
 					<div class="cities-images" id="stockholm"></div>
 					<p>Stockholm</p>
 				</div>
+                <!-- Stockholm modal with map and text -->
                 <div id="modal-stockholm" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -161,12 +190,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Stockholm modal with map and text -->
 			</div>
+            <!-- /Stockholm -->
+            <!-- Dublin -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-dublin">
 					<div class="cities-images" id="dublin"></div>
 					<p>Dublin</p>
 				</div>
+                <!-- Dublin modal with map and text -->
                 <div id="modal-dublin" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -180,12 +213,16 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Dublin modal with map and text -->
 			</div>
+            <!-- /Dublin -->
+            <!-- Helsinki -->
 			<div class="col-md-6 col-lg-4">
 				<div class="city-div" data-modal="modal-helsinki">
 					<div class="cities-images" id="helsinki"></div>
 					<p>Helsinki</p>
 				</div>
+                <!-- Helsinki modal with map and text -->
                 <div id="modal-helsinki" class="modal">
                     <div class="modal-content">
                         <div class="container">
@@ -199,13 +236,18 @@
                         </div>
                     </div>
                 </div>
+                <!-- /Helsinki modal with map and text -->
 			</div>
+            <!-- /Helsinki -->
 		</div>
 	</div>
+    <!-- /Destinations section with clickable images and modals -->
 
+    <!-- Contact section -->
 	<div class="container-fluid contact">
 		<div class="contact-overlay">&nbsp;</div>
             <div class="contact-content">
+                <!-- Contact Form -->
                 <form id="contact-form" onsubmit="return submitForm(this); return false">
                     <h2>Contact us to book now!</h2>
                         <div class="form-group">
@@ -232,12 +274,16 @@
                         </div>
                     <button type="submit" class="btn btn-dark btn-lg form-button">Send!</button>
                 </form>
+                <!-- /Contact Form -->
             </div>
 
 	</div>
+    <!-- /Contact section -->
 
+    <!-- Footer section with social media buttons and copyright -->
     <footer class="page-footer">
         <div class="footer-container">
+            <!-- Social media buttons-->
             <div class="social-media">
                 <div>Join us on social media!</div>
                     <!-- Facebook -->
@@ -245,27 +291,33 @@
                         <i class="fab fa-facebook-square fa-2x sm-icons"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
+                    <!-- /Facebook -->
                     <!-- Twitter -->
                     <a target="_blank" href="https://twitter.com">
                         <i class="fab fa-twitter-square fa-2x sm-icons"> </i>
                         <span class="sr-only">Twitter</span>
                     </a>
-                    <!--Instagram-->
+                    <!-- /Twitter -->
+                    <!-- Instagram -->
                     <a target="_blank" href="https://www.instagram.com">
                         <i class="fab fa-instagram fa-2x sm-icons"> </i>
                         <span class="sr-only">Instagram</span>
                     </a>
-                    <!--Pinterest-->
+                    <!-- /Instagram -->
+                    <!-- Pinterest -->
                     <a target="_blank" href="https://www.pinterest.ie">
                         <i class="fab fa-pinterest-square fa-2x sm-icons"> </i>
                         <span class="sr-only">Pinterest</span>
                     </a>
+                    <!-- /Pinterest -->
             </div>
-    <!-- Copyright -->
+            <!-- /Social media buttons-->
+            <!-- Copyright -->
             <div class="footer-copyright text-center py-3">© 2019 Copyright: Theatre Travels</div>
-    <!-- Copyright -->
+            <!-- /Copyright -->
         </div>
     </footer>
+    <!-- /Footer section with social media buttons and copyright -->
 
     <script src="https://kit.fontawesome.com/f41741c87d.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
