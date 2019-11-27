@@ -161,12 +161,15 @@ h2 {
     margin: auto;
     padding: 20px;
     width: 80%;
-    color: #326E8E;
 }
 
 .modal-content h2 {
     color: #326E8E;
     padding-bottom: 10px;
+}
+
+.modal-text {
+    text-align: justify;
 }
 
 .modal-map {
@@ -287,6 +290,10 @@ footer {
 
     .modal-content {
         height: 80%;
+    }
+    
+    .modal-content h2 {
+        padding-bottom: 20px;
     }
 
 }
