@@ -106,6 +106,13 @@ function initMap() {
         
     mapMarkers(paris, mapParis);
     mapMarkers(london, mapLondon);
+    mapMarkers(prague, mapPrague);
+    mapMarkers(vienna, mapVienna);
+    mapMarkers(athens, mapAthens);
+    mapMarkers(rome, mapRome);
+    mapMarkers(stockholm, mapStockholm);
+    mapMarkers(dublin, mapDublin);
+    mapMarkers(helsinki, mapHelsinki);
 
 
 } 
