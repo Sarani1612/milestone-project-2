@@ -257,9 +257,14 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+
     .landing-page, .contact {
         background-attachment: scroll;
+    }
+
+    .modal-text {
+        padding-top: 10px;
     }
 }
 
@@ -268,7 +273,7 @@ footer {
     .landing-text {
         padding: 75px 100px;
     }
-    
+
     .contact {
         height: 80vh;
     }
@@ -276,4 +281,12 @@ footer {
     footer {
         height: 20vh;
     }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .modal-content {
+        height: 80%;
+    }
+
 }

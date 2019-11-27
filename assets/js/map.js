@@ -25,6 +25,7 @@ window.onload = function(){
 
 // Initializing map
 function initMap() {
+
     // Location of places in Paris
     const paris = [
         {name: 'Senat', lat: 48.849111, lng: 2.339784},
@@ -91,10 +92,10 @@ function initMap() {
     var mapDublin = new google.maps.Map(document.getElementById('map-dublin'), {zoom: 15, center: dublin[0]});
     var mapHelsinki = new google.maps.Map(document.getElementById('map-helsinki'), {zoom: 15, center: helsinki[0]});
 
-
     function mapMarkers(city, map) {
         for(var i=0; i<=city.length; i++){
             var pins = city[i];
+            var map = map;
             var marker = new google.maps.Marker({
             position: pins,
             map: map,
