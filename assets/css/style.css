@@ -91,7 +91,15 @@ h2 {
 
 .city-div {
     border: 2px solid #326E8E;
-    margin: 5px;
+    margin: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.city-div:hover {
+    border: 2px solid #285871;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .cities-images ~ p {
