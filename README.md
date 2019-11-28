@@ -15,6 +15,10 @@ and images that were meant to convey the sense of a tranquil, magical sunset,
 given that that would typically be around the time of day where you would be heading to the theatre.
 
 ### User Stories
+- as a first time user of the website, I can easily move through the sections without too much clicking.
+- as a firs time user of the website, I can quickly get a sense of what the business is about and what they offer.
+- as a potential customer, I can easily locate the business' social media profiles where I will be able to get more information and read reviews.
+- as a returning customer, I can quickly get in touch with the business to discuss my next vacation without necessarily having to go through the other sections.
 
 ### Wireframes
 See the wireframes I created for this website by clicking on the links below.
