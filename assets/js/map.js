@@ -85,12 +85,12 @@ function initMap() {
     var mapParis = new google.maps.Map(document.getElementById('map-paris'), {zoom: 15, center: paris[0]});
     var mapLondon = new google.maps.Map(document.getElementById('map-london'), {zoom: 15, center: london[0]});
     var mapPrague = new google.maps.Map(document.getElementById('map-prague'), {zoom: 15, center: prague[0]});
-    var mapVienna = new google.maps.Map(document.getElementById('map-vienna'), {zoom: 15, center: vienna[0]});
+    var mapVienna = new google.maps.Map(document.getElementById('map-vienna'), {zoom: 14, center: vienna[0]});
     var mapAthens = new google.maps.Map(document.getElementById('map-athens'), {zoom: 15, center: athens[0]});
     var mapRome = new google.maps.Map(document.getElementById('map-rome'), {zoom: 15, center: rome[0]});
     var mapStockholm = new google.maps.Map(document.getElementById('map-stockholm'), {zoom: 15, center: stockholm[0]});
     var mapDublin = new google.maps.Map(document.getElementById('map-dublin'), {zoom: 15, center: dublin[0]});
-    var mapHelsinki = new google.maps.Map(document.getElementById('map-helsinki'), {zoom: 15, center: helsinki[0]});
+    var mapHelsinki = new google.maps.Map(document.getElementById('map-helsinki'), {zoom: 14, center: helsinki[0]});
 
     function mapMarkers(city, map) {
         for(var i = 0; i < city.length; i++){
