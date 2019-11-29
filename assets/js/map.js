@@ -31,7 +31,7 @@ function initMap() {
         {name: 'Senat', lat: 48.849111, lng: 2.339784},
         {name: 'Epidon', lat: 48.850865, lng: 2.339383},
         {name: 'Odéon', lat: 48.849493, lng: 2.338734}
-    ]
+    ];
     // Location of places in London
     const london = [
         {name: 'Courthouse Hotel', lat: 51.514351, lng: -0.139485},
@@ -93,15 +93,16 @@ function initMap() {
     var mapHelsinki = new google.maps.Map(document.getElementById('map-helsinki'), {zoom: 15, center: helsinki[0]});
 
     function mapMarkers(city, map) {
-        for(var i=0; i<=city.length; i++){
+        for(var i = 0; i < city.length; i++){
             var pins = city[i];
-            var map = map;
             var marker = new google.maps.Marker({
             position: pins,
             map: map,
+            animation: google.maps.Animation.DROP,
             title: pins.name
             });
         }
+        
     };
         
     mapMarkers(paris, mapParis);
@@ -114,7 +115,4 @@ function initMap() {
     mapMarkers(dublin, mapDublin);
     mapMarkers(helsinki, mapHelsinki);
 
-
-} 
-
-    
+}
