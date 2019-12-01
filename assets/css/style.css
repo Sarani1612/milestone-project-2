@@ -49,15 +49,6 @@ body {
     height: 100vh;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(133, 160, 182, 0.3);
-}
-
 .landing-text {
     margin-top: 30px;
     padding: 25px 25px;
@@ -72,11 +63,14 @@ h1 {
     padding-bottom: 2rem;
 }
 
-h2 {
+.landing-text > h2 {
     font-size: 1.8rem;
-    color: #FB4305;
+    color: rgb(255, 255, 255);
     font-weight: 700;
-    text-shadow: 2px 2px 1px #326E8E;
+    background-color: rgba(251, 66, 5, 0.5);
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
 }
 
 /* Landing Page */
