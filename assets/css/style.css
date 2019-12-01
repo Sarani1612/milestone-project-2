@@ -8,6 +8,26 @@ body {
     font-size: 1.2rem;
 }
 
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #FB4305;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #326E8E;
+}
+
+.nav-link, .bar-icon {
+    color: #326E8E 
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+/* Navbar */
+
 /* Landing Page */
 .landing-page, .contact {
     background-image: url("../images/big-ben-bg.jpg");
@@ -256,7 +276,7 @@ footer {
     padding: 10px;
 }
 
-.sm-icons:hover {
+.sm-icons:hover, .navbar-brand:hover, .nav-link:hover {
     color: #285871;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
