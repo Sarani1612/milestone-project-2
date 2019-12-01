@@ -200,6 +200,12 @@ h1 {
     min-height: 360px;
 }
 
+.modal-close {
+    color: #326E8E;
+    float: right;
+    font-size: 35px;
+}
+
 /* Modals */
 
 
@@ -272,7 +278,7 @@ footer {
     padding: 10px;
 }
 
-.sm-icons:hover, .navbar-brand:hover, .nav-link:hover {
+.sm-icons:hover, .navbar-brand:hover, .nav-link:hover, .modal-close:hover {
     color: #285871;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
