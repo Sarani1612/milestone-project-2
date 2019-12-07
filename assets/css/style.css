@@ -16,11 +16,11 @@ body {
 
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #326E8E;
+    color: #234099;
 }
 
 .nav-link, .bar-icon {
-    color: #326E8E 
+    color: #234099 
 }
 
 .nav-item {
@@ -59,7 +59,7 @@ h1 {
     font-weight: 700;
     font-size: 4rem;
     color: #FB4305;
-    text-shadow: 2px 2px 1px #326E8E;
+    text-shadow: 2px 2px 1px #234099;
     padding-bottom: 2rem;
 }
 
@@ -89,7 +89,7 @@ h1 {
 }
 
 .cities > h2 {
-    color: #326E8E;
+    color: #234099;
     margin-top: 35px;
     padding-bottom: 15px;
 }
@@ -106,7 +106,7 @@ h1 {
 }
 
 .city-div {
-    border: 2px solid #326E8E;
+    border: 2px solid #234099;
     margin: 10px;
     transition: all .3s ease-in-out;
 }
@@ -119,7 +119,7 @@ h1 {
 }
 
 .cities-images ~ p {
-    color: #326E8E;
+    color: #234099;
     margin: 5px;
 }
 
@@ -188,7 +188,7 @@ h1 {
 }
 
 .modal-content h2 {
-    color: #326E8E;
+    color: #234099;
     padding-bottom: 10px;
 }
 
@@ -201,7 +201,7 @@ h1 {
 }
 
 .modal-close {
-    color: #326E8E;
+    color: #234099;
     float: right;
     font-size: 35px;
 }
@@ -223,7 +223,7 @@ h1 {
     position: relative;
     z-index: 1;
     color: #FB4305;
-    text-shadow: 1px 1px 1px #326E8E;
+    text-shadow: 1px 1px 1px #234099;
     max-width: 1000px;
     margin: 35px auto;
     padding-left: 5px;
@@ -240,19 +240,19 @@ h1 {
 
 .form-button {
     color:  #FB4305;
-    background-color: #326E8E;
+    background-color: #234099;
     margin-bottom: 15px;
 }
 
 .form-button-sent {
-    color: #326E8E;
+    color: #234099;
     background-color: #FB4305;
     margin-bottom: 15px;
 }
 
 .form-button:hover {
     color:  #FB4305;
-    background-color: #326E8E;
+    background-color: #15265B;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
@@ -265,7 +265,7 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #FB4305;
-    color: #326E8E;
+    color: #234099;
 }
 
 .footer-container {
@@ -274,12 +274,12 @@ footer {
 }
 
 .sm-icons {
-    color: #326E8E;
+    color: #234099;
     padding: 10px;
 }
 
 .sm-icons:hover, .navbar-brand:hover, .nav-link:hover, .modal-close:hover {
-    color: #285871;
+    color: #15265B;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
