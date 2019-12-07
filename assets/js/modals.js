@@ -10,15 +10,15 @@ window.onload = function(){
             $(modal).show();
         }, false;
 
-    }
+    };
 
     // Closes modals when clicking outside of it
 
     window.onclick = function(event) {
         if (event.target.className == 'modal') {
             $('.modal').hide();
-        }
-    }
+        };
+    };
 
     // Closes modals when clicking on close button
 
@@ -26,7 +26,7 @@ window.onload = function(){
     for (var i = 0; i < closeModal.length; i++) {
         closeModal[i].onclick = function() {
             $('.modal').hide();
-        }
-    }
+        };
+    };
 
 };
