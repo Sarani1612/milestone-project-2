@@ -6,6 +6,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 1.2rem;
+    color: #070C1E;
 }
 
 /* Navbar */
@@ -216,7 +217,7 @@ h1 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(133, 160, 182, 0.55);
+    background-color: rgba(35, 64, 153, 0.40);
 }
 
 .contact-content {
