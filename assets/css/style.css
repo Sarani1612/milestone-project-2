@@ -290,7 +290,7 @@ footer {
 
 /* Media Queries */
 
-@media (max-width: 991px) {
+@media only screen and (max-width: 991px) {
 
     .landing-page, .contact {
         background-attachment: scroll;
@@ -303,7 +303,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (orientation: portrait) {
 
     .landing-text {
         padding: 75px 100px;
