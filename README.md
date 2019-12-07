@@ -52,7 +52,8 @@ The modal content has the same soft gradient background as the Destinations sect
 ### Contact Section
 The contact section uses the same background photo as the landing-page, again to tie it all together.
 Here, however, it has been toned down with an overlay to make the contact form stand out and easier to read.\
-The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.
+The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.\
+Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).
 
 ### Existing Features
 
