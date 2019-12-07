@@ -67,10 +67,20 @@ This was done to increase the contrast ratio between text and background in orde
 This is important given that it is a one-page website and a lot of scrolling would be required otherwise. This way the user can navigate easily between the sections at all times.
 - **Footer:** The website has a footer with copyright info and with links to social media where the user would be able to find additional info and reviews.
 The footer stays at the bottom of the page and is only visible when scrolling down.
-- **Animations:** 
-- **Modals:**
+- **Animations:** The website uses subtle hover animations on all clickable content (links in header and footer, images and submit button) for better interactivity and a more intuitive user experience.
+- **Modals:** The website uses modals to display a map and info about the holiday destinations when a photo is clicked.
+This enables smoother transitions between sections because the user will not have to first open a new page and wait for it to load.
+Furthermore, when the modal is closed the user will be exactly where they were before and they avoid having to scroll past already seen content, which can sometimes be reason enough to lose interest and leave the website.
+- **Maps:** Each modal contains a map of the area of interest in each city with three pins showing a restaurant, hotel and theatre, and the user can zoom in and out to better explore the area.
+This, along with the info text, helps the user to better visualize themselves going on a trip.
 
 ### Features Left to Implement
+- **Price and practicalities info:** Obviously, users would be interested in knowing the price of a holiday package, and so a useful feature would be a subpage linked to in the header detailing the costs involved.
+There could also be a chart showing prices for the same trip at different times of year for quick comparison.
+Furthermore, users would be interested in knowing the practicalities such as how they will receive tickets to the theatre, visa requirements, transfers to and from the airport etc.\
+- **Search and filter:** For an even better user experience, a search and filter option could be added so that it would be possible to search for a specific destination or to filter on price, type of show, hotel facilities, best time of year to go etc.
+- **Enhanced maps:** To really get the users to immerse themselves in the planning of their trip, a nice feature would be the option to show other hotels, restaurants and so on on the maps.
+- **Reviews:** A section with reviews from previous clients would help convince users that the business is above board and delivers on its promises.
 
 ## Technologies Used
 

@@ -7,7 +7,7 @@ window.onload = function(){
         var thisCityDiv = cityDiv[i];
         thisCityDiv.onclick = function() {
             var modal = document.getElementById(this.dataset.modal);
-            $(modal).show();
+            $(modal).show()
         }, false;
 
     };
@@ -16,7 +16,7 @@ window.onload = function(){
 
     window.onclick = function(event) {
         if (event.target.className == 'modal') {
-            $('.modal').hide();
+            $('.modal').hide()
         };
     };
 
@@ -25,7 +25,7 @@ window.onload = function(){
     var closeModal = document.getElementsByClassName('modal-close');
     for (var i = 0; i < closeModal.length; i++) {
         closeModal[i].onclick = function() {
-            $('.modal').hide();
+            $('.modal').hide()
         };
     };
 
