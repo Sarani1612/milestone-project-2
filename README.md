@@ -32,6 +32,27 @@ while view 3 is one of the modals that pop up when an image is clicked. View 4 i
 The wireframes were created with [Balsamiq](https://balsamiq.com/).
 
 ## Features
+The website is a one-page site where the user can scroll down from the **landing-page** to the **Destinations** section
+and further on to the **Contact** section.\
+There is a navigation bar which stays fixed at the top when scrolling and a footer at the bottom of the Contact section.
+
+### Landing-page
+The landing-page consist of a background photo of an easily recognizagle, popular holiday destination, London.
+Over the photo is the name of the business and a very brief text explaining what the business is about.\
+The landing-page covers the full viewport and is kept minimalistic and simple to avoid information overload.
+
+### Destinations section
+This bulk of this section is 9 photos of the destinations that the business offers. Since these photos are really what is important here,
+the background is a soft gradient with no figures, shapes and so on.\
+At the top, there is a paragraph inviting users to click on the photos in order to see more information about the trip.\
+There is also a friendly paragraph encouraging users to contact the business.\
+Clicking on each of the photos opens up a modal with a map and a description of the destination.
+The modal content has the same soft gradient background as the Destinations section itself to tie it all together.
+
+### Contact Section
+The contact section uses the same background photo as the landing-page, again to tie it all together.
+Here, however, it has been toned down with an overlay to make the contact form stand out and easier to read.\
+The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.
 
 ### Existing Features
 
