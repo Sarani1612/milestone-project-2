@@ -30,3 +30,30 @@ while view 3 is one of the modals that pop up when an image is clicked. View 4 i
 - [Desktop](wireframes/desktop.pdf)
 
 The wireframes were created with [Balsamiq](https://balsamiq.com/).
+
+## Features
+
+### Existing Features
+
+### Features Left to Implement
+
+## Technologies Used
+
+## Testing
+
+### Testing User Stories
+
+### Manually testing all content and features across the website
+
+## Deployment
+
+### Running the project locally
+
+## Credits
+
+### Code
+
+### Content
+
+### Media
+
