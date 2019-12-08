@@ -57,7 +57,7 @@ Here, however, it has been toned down with an overlay to make the contact form s
 The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.\
 Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).\
 
-#### Wireframe differences
+### Wireframe differences
 - As can be seen in my wireframes, the original idea was for the contact section to be a text inviting the user to get in touch via email or phone, and there was no form.
 However, as the website started to take shape, I realized it did not look very professional and most users have come to expect a contact form on most websites.
 In addition, filling out a form always seems easier to do than writing an email from scratch or calling, and I therefore thought it would do a much better job of getting the users to reach out than a simple text.
@@ -124,8 +124,11 @@ In addition, Chrome's developer tools were used extensively to test on all scree
     - as the business concept is fairly simple, the subheading on the landing-page is enough to give the user a strong idea of what is on offer,
     and the texts in the modals confirm this idea and add more information.
 4. as a potential customer, I can easily locate the business' social media profiles where I will be able to get more information and read reviews.
+    - the business' social media accounts are available through the icons located in the footer. They open in a new tab so the user still has easy access to the website.
 5. as a returning customer, I can quickly get in touch with the business to discuss my next vacation without necessarily having to go through the other sections.
+    - the contact section is linked to in the navigation bar, so it is possible to get to it directly from the landing-page if desired.
 6. as a potential customer who is trying to pick a destination, I can find information on the individual cities and compare my options.
+    - clicking on a city photo immediately gives access to more information about the hotels, restaurants and venues, and the information is structured the same way for all destinations which makes it easier to compare them.
 
 ### Manually testing all content and features across the website
 
