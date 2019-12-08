@@ -75,6 +75,7 @@ Furthermore, when the modal is closed the user will be exactly where they were b
 This, along with the info text, helps the user to better visualize themselves going on a trip.
 
 ### Features Left to Implement
+The following features could be added later on for a more complete website and better user experience:
 - **Price and practicalities info:** Obviously, users would be interested in knowing the price of a holiday package, and so a useful feature would be a subpage linked to in the header detailing the costs involved.
 There could also be a chart showing prices for the same trip at different times of year for quick comparison.
 Furthermore, users would be interested in knowing the practicalities such as how they will receive tickets to the theatre, visa requirements, transfers to and from the airport etc.\
@@ -82,7 +83,19 @@ Furthermore, users would be interested in knowing the practicalities such as how
 - **Enhanced maps:** To really get the users to immerse themselves in the planning of their trip, a nice feature would be the option to show other hotels, restaurants and so on on the maps.
 - **Reviews:** A section with reviews from previous clients would help convince users that the business is above board and delivers on its promises.
 
-## Technologies Used
+## Technologies and Tools Used
+The following technologies were used to make the website:
+- **HTML** and **CSS** were used for the overall structure of the website
+- **[Bootstrap](https://getbootstrap.com/)** was used to make a website that would be responsive on all screen specializes
+- **JavaScript** was used for displaying modals and maps and for setting up the contact form with EmailJS
+- **[JQuery](https://jquery.com/)** was used to facilitate DOM manipulation in connection with the modals
+- **[PopperJS](https://popper.js.org/)** was used for Bootstrap
+- **[Google Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)** was used to render the maps
+- **[EmailJS](https://www.emailjs.com/)** was used to set up the contact form to send emails
+- **[Google Fonts](https://fonts.google.com/)** provided the two fonts, Montserrat Alternates and Lato, used on the website
+- **[favicon.io](https://favicon.io/)** was used to generate a favicon for the website
+- **[BeFunky](https://www.befunky.com/create/crop-photo/)** was used to resize images for faster loading
+- **[Colormind](http://colormind.io/)** was used to generate a colour scheme
 
 ## Testing
 
@@ -101,4 +114,7 @@ Furthermore, users would be interested in knowing the practicalities such as how
 ### Content
 
 ### Media
+
+
+*This website is purely for educational purposes*
 
