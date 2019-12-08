@@ -107,13 +107,22 @@ The following technologies were used to make the website:
 - **[Colormind](http://colormind.io/)** was used to generate a colour scheme
 
 ## Testing
+The HTML code was put through the [W3C Markup Validator](https://validator.w3.org/) to check for syntax errors.
+Similarly, the CSS code was put through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+All the following testing has been carried out on smaller screens running both iOS and Android and on larger screens running both macOS and Windows.
+In addition, Chrome's developer tools were used extensively to test on all screen sizes including medium size which I did not otherwise have access to.
 
 ### Testing User Stories
 1. as a user of the website, I can easily navigate between the sections of the website.
     - this is ensured by the navigation bar which has clearly labelled links for all sections of the website.
     Since it is fixed to the top, it is always available for the user to click on and go to another section.
 2. as a first time user of the website, I can intuitively get to what I am looking for.
+    - this is ensured by two features: firstly, the navigation bar with easily identifiable links quickly locates all sections of the website.
+    Secondly, the hover animations send a clear signal to the user that the element can be clicked which makes it easy to discover the modals and the social media accounts.
 3. as a first time user of the website, I can quickly get a sense of what the business is about and what they offer.
+    - as the business concept is fairly simple, the subheading on the landing-page is enough to give the user a strong idea of what is on offer,
+    and the texts in the modals confirm this idea and add more information.
 4. as a potential customer, I can easily locate the business' social media profiles where I will be able to get more information and read reviews.
 5. as a returning customer, I can quickly get in touch with the business to discuss my next vacation without necessarily having to go through the other sections.
 6. as a potential customer who is trying to pick a destination, I can find information on the individual cities and compare my options.
