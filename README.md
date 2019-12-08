@@ -15,10 +15,12 @@ and images that were meant to convey the sense of a tranquil, magical sunset,
 given that that would typically be around the time of day where you would be heading to the theatre.
 
 ### User Stories
-- as a first time user of the website, I can easily move through the sections without too much clicking.
-- as a firs time user of the website, I can quickly get a sense of what the business is about and what they offer.
+- as a user of the website, I can easily navigate between the sections of the website.
+- as a first time user of the website, I can intuitively get to what I am looking for.
+- as a first time user of the website, I can quickly get a sense of what the business is about and what they offer.
 - as a potential customer, I can easily locate the business' social media profiles where I will be able to get more information and read reviews.
 - as a returning customer, I can quickly get in touch with the business to discuss my next vacation without necessarily having to go through the other sections.
+- as a potential customer who is trying to pick a destination, I can find information on the individual cities and compare my options.
 
 ### Wireframes
 See the wireframes I created for this website by clicking on the links below.
@@ -53,7 +55,14 @@ The modal content has the same soft gradient background as the Destinations sect
 The contact section uses the same background photo as the landing-page, again to tie it all together.
 Here, however, it has been toned down with an overlay to make the contact form stand out and easier to read.\
 The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.\
-Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).
+Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).\
+
+#### Wireframe differences
+- As can be seen in my wireframes, the original idea was for the contact section to be a text inviting the user to get in touch via email or phone, and there was no form.
+However, as the website started to take shape, I realized it did not look very professional and most users have come to expect a contact form on most websites.
+In addition, filling out a form always seems easier to do than writing an email from scratch or calling, and I therefore thought it would do a much better job of getting the users to reach out than a simple text.
+- The wireframes do not include a navigation bar because I initially deemed it unnecessary on a website of such a small size. Given that there is only two sections (apart from the landing-page),
+it did not seem like moving around the site would be an issue even without a navigation bar. However, there is absoloutely no harm in making navigating the site as easy as possible for the users, and I therefore decided to implement a navigation bar after all.
 
 ### Existing Features
 - **Colour scheme:** As mentioned above in the introduction, a colour scheme reminiscent of a sunset was used for this website.
@@ -100,20 +109,44 @@ The following technologies were used to make the website:
 ## Testing
 
 ### Testing User Stories
+1. as a user of the website, I can easily navigate between the sections of the website.
+    - this is ensured by the navigation bar which has clearly labelled links for all sections of the website.
+    Since it is fixed to the top, it is always available for the user to click on and go to another section.
+2. as a first time user of the website, I can intuitively get to what I am looking for.
+3. as a first time user of the website, I can quickly get a sense of what the business is about and what they offer.
+4. as a potential customer, I can easily locate the business' social media profiles where I will be able to get more information and read reviews.
+5. as a returning customer, I can quickly get in touch with the business to discuss my next vacation without necessarily having to go through the other sections.
+6. as a potential customer who is trying to pick a destination, I can find information on the individual cities and compare my options.
 
 ### Manually testing all content and features across the website
 
 ## Deployment
+I set up a new repository in GitHub and clicked the Gitpod button which immediately set up a new environment for me. I did all the coding in the Gitpod environment and periodially pushed the commits from the command line.
+To deploy the website I went to the settings tab for the depository on GitHub and set the master branch as the publishing source and a few moments later the website was available on GitHub Pages through the link provided at the top.
 
 ### Running the project locally
+Follow these steps if you wish to run the project locally:
+- go to the [repository page](https://github.com/Sarani1612/milestone-project-2) on GitHub
+- click the "clone or download" button on the right-hand side
+- copy the URL that shows up
+- in Terminal, change the current working directory to the location where you want the cloned directory to be made
+- type 'git clone' and paste the URL from step 2
+- press enter
+- the local clone will be created
+
+These instructions and more info can be found on [this GitHub Help Page](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 
 ### Code
+- the code used for opening and closing modal boxes is based on the [W3Schools' How To Make a Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 ### Content
+- texts for the modals about the destinations are written by me with inspiration from the hotels', restaurants' and venues' own websites.
 
 ### Media
+- all photos are free stock photos from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+- the social media icons are from [Font Awesome](https://fontawesome.com/).
 
 
 *This website is purely for educational purposes*
