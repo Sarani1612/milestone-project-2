@@ -131,6 +131,28 @@ In addition, Chrome's developer tools were used extensively to test on all scree
     - clicking on a city photo immediately gives access to more information about the hotels, restaurants and venues, and the information is structured the same way for all destinations which makes it easier to compare them.
 
 ### Manually testing all content and features across the website
+In addition to checking that the website looked as intended on all screen sizes, I paid close attention to the following points:
+- **Navigation bar**
+    - I clicked the links in the navigation bar to make sure they worked and linked to the right section on the page.
+    - I scrolled down to make sure it always stayed at the top.
+    - I made sure that it collapsed into a button on small screens.
+- **Images**
+- **Background images**
+- **Modals**
+- **Maps**
+- **Text**
+- **Contact form**
+- **Submit button**
+- **Footer**
+- **Icons**
+- **Links**
+- **Animations**
+
+#### Resolved issues
+- **Navigation bar button:** the button on small screens did not respond to CSS rule for colour in the same way that the links to the page sections did,
+and it meant that the button was the same colour as the navigation bar itself and therefore not visible. I solved this issue by inserting an icon from [Font Awesome](https://fontawesome.com/) and styling that instead.
+- **Landing-page background image:**
+-**Landing-page and Contact section in landscape mode:**
 
 ## Deployment
 I set up a new repository in GitHub and clicked the Gitpod button which immediately set up a new environment for me. I did all the coding in the Gitpod environment and periodially pushed the commits from the command line.
