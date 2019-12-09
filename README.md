@@ -137,22 +137,34 @@ In addition to checking that the website looked as intended on all screen sizes,
     - I scrolled down to make sure it always stayed at the top.
     - I made sure that it collapsed into a button on small screens.
 - **Images**
-- **Background images**
+    - I verified that all images including background images loaded and were responsive on all screen sizes (no stretching).
 - **Modals**
+    - I clicked on all the modals to ensure they could be opened on all screens. I also made sure they could be closed again both when clicking outside of it and when clicking the X in the upper right corner.
 - **Maps**
+    I checked that the maps loaded on all screens and that the three markers were there. I had to adjust the zoom level a bit because on smaller screens some of the maps were too small to have all three markers within view.
 - **Text**
+    - All text throughout the website and in the modals looked as intended with the right size, colour and font.
 - **Contact form**
+    - The contact form looked as intended on all screens with correct placeholders, labels, styling etc.
+    - Error messages showed up when the form was not filled in correctly. 
 - **Submit button**
+    - The submit button looked as intended on all screens.
+    - When submitting a form successfully, the button changed text and styling as intended.
 - **Footer**
+    - The footer looked as intended, stayed at the bottom of the page and took up the correct amount of space.
 - **Icons**
-- **Links**
-- **Animations**
+    - All the icons in the footer looked as intented and opened the correct links in new tabs.
+- **Hover animations**
+    - The hover animations on the navigation bar items, images and footer icons worked as intended.
 
 #### Resolved issues
 - **Navigation bar button:** the button on small screens did not respond to CSS rule for colour in the same way that the links to the page sections did,
 and it meant that the button was the same colour as the navigation bar itself and therefore not visible. I solved this issue by inserting an icon from [Font Awesome](https://fontawesome.com/) and styling that instead.
-- **Landing-page background image:**
--**Landing-page and Contact section in landscape mode:**
+- **Landing-page background image:** early on there was a problem with the landing-page background photo not loading on an iPhone.
+I found out that it was a common problem in iOS when background-attachment is set to fixed. I solved the issue with a media query for small screens that sets background-attachment to scroll. 
+- **Contact section in landscape mode:** I discovered there was an issue with the contact section in landscape mode on larger smartphones and on tablets where it was not possible
+to see the whole form or to scroll down to see it. The issue occurred due to the media query for medium sized screens and up, because it set the contact section + footer to equal the viewport height.
+I solved the issue by making the media query more specific, so that it only applies to screens of a width between 768px and 1024px when they are in portrait mode.
 
 ## Deployment
 I set up a new repository in GitHub and clicked the Gitpod button which immediately set up a new environment for me. I did all the coding in the Gitpod environment and periodially pushed the commits from the command line.
@@ -183,5 +195,5 @@ These instructions and more info can be found on [this GitHub Help Page](https:/
 - the social media icons are from [Font Awesome](https://fontawesome.com/).
 
 
-*This website is purely for educational purposes*
+*This website has been designed for educational purposes only*
 
