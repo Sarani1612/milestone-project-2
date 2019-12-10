@@ -261,7 +261,7 @@ h1 {
 /* Contact container */
 
 /* Footer */
-footer {
+.page-footer {
     display: block;
     bottom: 0;
     width: 100%;
@@ -304,10 +304,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 768px)
-and (max-width: 1024px)
-and (orientation: portrait),
-(min-width: 1200px) {
+@media only screen and (min-height: 825px) {
 
     .landing-text {
         padding: 75px 100px;
