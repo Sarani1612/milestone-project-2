@@ -77,8 +77,8 @@ function initMap() {
             animation: google.maps.Animation.DROP,
             title: pins.name
             });
-        };
-    };
+        }
+    }
         
     mapMarkers(paris, mapParis);
     mapMarkers(london, mapLondon);
@@ -90,4 +90,4 @@ function initMap() {
     mapMarkers(dublin, mapDublin);
     mapMarkers(helsinki, mapHelsinki);
 
-};
+}
