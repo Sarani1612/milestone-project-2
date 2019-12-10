@@ -110,7 +110,7 @@ The following technologies were used to make the website:
 The HTML code was put through the [W3C Markup Validator](https://validator.w3.org/) to check for syntax errors.
 Similarly, the CSS code was put through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
-All the following testing has been carried out on smaller screens running both iOS and Android and on larger screens running both macOS and Windows.
+All the following testing has been carried out on smaller screens running both iOS and Android and on larger screens running both macOS and Windows in multiple browsers.
 In addition, Chrome's developer tools were used extensively to test on all screen sizes including medium size which I did not otherwise have access to.
 
 ### Testing User Stories
