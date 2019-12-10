@@ -55,13 +55,13 @@ The modal content has the same soft gradient background as the Destinations sect
 The contact section uses the same background photo as the landing-page, again to tie it all together.
 Here, however, it has been toned down with an overlay to make the contact form stand out and easier to read.\
 The form itself has input fields for name, email address, travel dates, duration and comments. It is followed by a submit button.\
-Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).\
+Finally, at the bottom there is a footer with copyright info and links to social media (Facebook, Twitter, Instagram and Pinterest).
 
 ### Wireframe differences
-- As can be seen in my wireframes, the original idea was for the contact section to be a text inviting the user to get in touch via email or phone, and there was no form.
+- As can be seen in my [wireframes](wireframes/), the original idea was for the contact section to be a text inviting the user to get in touch via email or phone, and there was no form.
 However, as the website started to take shape, I realized it did not look very professional and most users have come to expect a contact form on most websites.
 In addition, filling out a form always seems easier to do than writing an email from scratch or calling, and I therefore thought it would do a much better job of getting the users to reach out than a simple text.
-- The wireframes do not include a navigation bar because I initially deemed it unnecessary on a website of such a small size. Given that there is only two sections (apart from the landing-page),
+- The [wireframes](wireframes/) do not include a navigation bar because I initially deemed it unnecessary on a website of such a small size. Given that there is only two sections (apart from the landing-page),
 it did not seem like moving around the site would be an issue even without a navigation bar. However, there is absoloutely no harm in making navigating the site as easy as possible for the users, and I therefore decided to implement a navigation bar after all.
 
 ### Existing Features
@@ -163,8 +163,8 @@ and it meant that the button was the same colour as the navigation bar itself an
 - **Landing-page background image:** early on there was a problem with the landing-page background photo not loading on an iPhone.
 I found out that it was a common problem in iOS when background-attachment is set to fixed. I solved the issue with a media query for small screens that sets background-attachment to scroll. 
 - **Contact section in landscape mode:** I discovered there was an issue with the contact section in landscape mode on larger smartphones and on tablets where it was not possible
-to see the whole form or to scroll down to see it. The issue occurred due to the media query for medium sized screens and up, because it set the contact section + footer to equal the viewport height.
-I solved the issue by making the media query more specific, so that it only applies to screens of a width between 768px and 1024px when they are in portrait mode.
+to see the whole form or to scroll down to see it. The issue occurred due to the media query for medium sized screens and up, because it set the contact section + footer to equal the viewport height (80vh and 20vh respectively).
+I solved the issue by making the media query only apply to heights of at least 825px which is enough to show all content in the section.
 
 ## Deployment
 I set up a new repository in GitHub and clicked the Gitpod button which immediately set up a new environment for me. I did all the coding in the Gitpod environment and periodially pushed the commits from the command line.
