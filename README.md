@@ -159,7 +159,7 @@ In addition to checking that the website looked as intended on all screen sizes,
 - **Hover animations**
     - The hover animations on the navigation bar items, images and footer icons worked as intended.
 
-#### Resolved issues
+#### Resolved Issues
 - **Navigation bar button:** the button on small screens did not respond to CSS rule for colour in the same way that the links to the page sections did,
 and it meant that the button was the same colour as the navigation bar itself and therefore not visible. I solved this issue by inserting an icon from [Font Awesome](https://fontawesome.com/) and styling that instead.
 - **Landing-page background image:** early on there was a problem with the landing-page background photo not loading on an iPhone.
