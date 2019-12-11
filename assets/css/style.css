@@ -186,6 +186,7 @@ h1 {
     margin: auto;
     padding: 20px;
     width: 80%;
+    min-height:450px; /* prevents the map from being taller than its container */
 }
 
 .modal-container, .modal-row {
@@ -204,7 +205,7 @@ h1 {
 .modal-map {
     min-height: 300px;
     height: 80%;
-    max-height: 600px;
+    max-height: 500px;
 }
 
 .modal-close {
@@ -309,6 +310,7 @@ h1 {
 
 }
 
+/*Prevents the contact + footer section from being only viewport height on small-medium screens in landscape mode */
 @media only screen and (min-height: 825px) {
 
     .landing-text {
