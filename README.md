@@ -147,6 +147,8 @@ In addition to checking that the website looked as intended on all screen sizes,
 - **Contact form**
     - The contact form looked as intended on all screens with correct placeholders, labels, styling etc.
     - Error messages showed up when the form was not filled in correctly. 
+    - I verified that the form was set up correctly with EmailJS by filling out the form with a valid email address.
+    When the form was submitted, I received it in my linked inbox, and I also received an auto-reply to the email I used in the form.
 - **Submit button**
     - The submit button looked as intended on all screens.
     - When submitting a form successfully, the button changed text and styling as intended.
@@ -165,6 +167,8 @@ I found out that it was a common problem in iOS when background-attachment is se
 - **Contact section in landscape mode:** I discovered there was an issue with the contact section in landscape mode on larger smartphones and on tablets where it was not possible
 to see the whole form or to scroll down to see it. The issue occurred due to the media query for medium sized screens and up, because it set the contact section + footer to equal the viewport height (80vh and 20vh respectively).
 I solved the issue by making the media query only apply to heights of at least 825px which is enough to show all content in the section.
+- **Map taller than modal content section*:** There was an issue with the map overflowing the modal content div when the viewport was not very tall.
+I fixed this by giving the modal content div a min-height so that it is always tall enough to contain the map.
 
 ## Deployment
 I set up a new repository in GitHub and clicked the Gitpod button which immediately set up a new environment for me. I did all the coding in the Gitpod environment and periodially pushed the commits from the command line.
