@@ -2,7 +2,6 @@ window.onload = function(){
 
     // Opens modals
     var cityDiv = document.getElementsByClassName('city-div');
-
     for (var i = 0; i < cityDiv.length; i++) {
         var thisCityDiv = cityDiv[i];
         thisCityDiv.onclick = function() {
