@@ -218,16 +218,19 @@ h1 {
 }
 
 .modal-btn {
-    display: block;
-    margin: 15px auto;
-}
-
-.modal-btn > a {
+    text-align: center;
+    padding: 10px 15px;
     color: #FB4305;
+    background-color: #234099;
 }
 
-.modal-btn > a:hover {
+.modal-btn:hover {
     text-decoration: none;
+    color: #FB4305;
+    background-color: #15265B;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .modal-close {
