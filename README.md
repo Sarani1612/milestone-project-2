@@ -204,6 +204,7 @@ These instructions and more info can be found on [this GitHub Help Page](https:/
 - all photos are free stock photos from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
 - the social media icons are from [Font Awesome](https://fontawesome.com/).
 
+Thanks to my sister, Erika, for extesive testing of the website, especially of the contact form.
 
 *This website has been designed for educational purposes only*
 
