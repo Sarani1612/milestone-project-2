@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat+Alternates:700&display=swap');
 
-tml {
+html {
     scroll-behavior: smooth;
 }
 
@@ -14,16 +14,17 @@ body {
 /* Navbar */
 .navbar {
     width: 100%;
-    background-color: #FB4305;
+    background-color: #234099;
 }
 
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #234099;
+    color: #FB4305;
 }
 
 .nav-link, .bar-icon {
-    color: #234099 
+    color: #FB4305;
+    padding-top: 5px;
 }
 
 .nav-item {
@@ -81,10 +82,10 @@ h1 {
 
 /* Cities container */
 .cities {
-    background-image: url("../images/cities-bg.jpg");
-    background-size: cover;
+    background-image: linear-gradient(to bottom, #bdc5e0, #d3c3e0, #eac1d7, #f9c1c7, #fdc6b4);
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -274,8 +275,8 @@ h1 {
     display: block;
     bottom: 0;
     width: 100%;
-    background-color: #FB4305;
-    color: #234099;
+    color: #FB4305;
+    background-color: #234099;
 }
 
 .footer-container {
@@ -284,7 +285,7 @@ h1 {
 }
 
 .sm-icons {
-    color: #234099;
+    color: #FB4305;
     padding: 10px;
 }
 
