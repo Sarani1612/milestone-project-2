@@ -20,6 +20,15 @@ body {
 .navbar-brand {
     font-family: 'Montserrat Alternates', sans-serif;
     color: #FB4305;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link {
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .nav-link, .bar-icon {
@@ -82,10 +91,9 @@ h1 {
 
 /* Cities container */
 .cities {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bdc5e0), color-stop(#d3c3e0), color-stop(#eac1d7), color-stop(#f9c1c7), to(#fdc6b4));
+    background-image: -o-linear-gradient(top, #bdc5e0, #d3c3e0, #eac1d7, #f9c1c7, #fdc6b4);
     background-image: linear-gradient(to bottom, #bdc5e0, #d3c3e0, #eac1d7, #f9c1c7, #fdc6b4);
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -112,6 +120,8 @@ h1 {
 .city-div {
     border: 2px solid #234099;
     margin: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
@@ -215,8 +225,10 @@ h1 {
     color: #234099;
     float: right;
     font-size: 35px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
-
 /* Modals */
 
 
@@ -259,6 +271,9 @@ h1 {
     color: #234099;
     background-color: #FB4305;
     margin-bottom: 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .form-button:hover {
@@ -287,10 +302,16 @@ h1 {
 .sm-icons {
     color: #FB4305;
     padding: 10px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-.sm-icons:hover, .navbar-brand:hover, .nav-link:hover, .modal-close:hover {
-    color: #15265B;
+.sm-icons:hover,
+.navbar-brand:hover,
+.nav-link:hover,
+.modal-close:hover {
+    color: #7D2102;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
