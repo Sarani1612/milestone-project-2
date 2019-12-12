@@ -13,7 +13,6 @@ window.onload = function(){
     };
 
     // Closes modals when clicking outside of it
-
     window.onclick = function(event) {
         if (event.target.className == 'modal') {
             $('.modal').hide()
@@ -21,12 +20,16 @@ window.onload = function(){
     };
 
     // Closes modals when clicking on close button
-
     var closeModal = document.getElementsByClassName('modal-close');
     for (var i = 0; i < closeModal.length; i++) {
         closeModal[i].onclick = function() {
             $('.modal').hide()
         };
     };
+
+    // Closes navbar burger icon when an item is clicked. Code kindly provided by fellow student Kitty McDonagh.
+    $('.navbar-nav>li>a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
 
 };
