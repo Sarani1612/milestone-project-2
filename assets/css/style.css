@@ -189,13 +189,9 @@ h1 {
 }
 
 .modal-content {
-    background-image: url("../images/cities-bg.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#bdc5e0), color-stop(#d3c3e0), color-stop(#eac1d7), color-stop(#f9c1c7), to(#fdc6b4));
+    background-image: -o-linear-gradient(top, #bdc5e0, #d3c3e0, #eac1d7, #f9c1c7, #fdc6b4);
+    background-image: linear-gradient(to bottom, #bdc5e0, #d3c3e0, #eac1d7, #f9c1c7, #fdc6b4);
     margin: auto;
     padding: 20px;
     width: 80%;
