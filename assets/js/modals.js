@@ -27,6 +27,14 @@ window.onload = function(){
         };
     };
 
+    // Closes modals when the contact button is clicked
+    var jumpContact = document.getElementsByClassName('modal-btn');
+    for (var i = 0; i < jumpContact.length; i++) {
+        jumpContact[i].onclick = function() {
+            $('.modal').hide()
+        };
+    };
+
     // Closes navbar burger icon when an item is clicked. Code kindly provided by fellow student Kitty McDonagh.
     $('.navbar-nav>li>a').on('click', function() {
         $('.navbar-collapse').collapse('hide');

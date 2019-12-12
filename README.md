@@ -48,7 +48,7 @@ This bulk of this section is 9 photos of the destinations that the business offe
 the background is a soft gradient with no figures, shapes and so on.\
 At the top, there is a paragraph inviting users to click on the photos in order to see more information about the trip.\
 There is also a friendly paragraph encouraging users to contact the business.\
-Clicking on each of the photos opens up a modal with a map and a description of the destination.
+Clicking on each of the photos opens up a modal with a map and a description of the destination. There is also a button that when clicked jumps to the contact form.
 The modal content has the same soft gradient background as the Destinations section itself to tie it all together.
 
 ### Contact Section
@@ -82,6 +82,7 @@ This enables smoother transitions between sections because the user will not hav
 Furthermore, when the modal is closed the user will be exactly where they were before and they avoid having to scroll past already seen content, which can sometimes be reason enough to lose interest and leave the website.
 - **Maps:** Each modal contains a map of the area of interest in each city with three pins showing a restaurant, hotel and theatre, and the user can zoom in and out to better explore the area.
 This, along with the info text, helps the user to better visualize themselves going on a trip.
+- **Contact buttons:** each modal has a button for easy access to the contact form.
 
 ### Features Left to Implement
 The following features could be added later on for a more complete website and better user experience:
@@ -146,6 +147,8 @@ In addition to checking that the website looked as intended on all screen sizes,
     I checked that the maps loaded on all screens and that the three markers were there. I had to adjust the zoom level a bit because on smaller screens some of the maps were too small to have all three markers within view.
 - **Text**
     - All text throughout the website and in the modals looked as intended with the right size, colour and font.
+- **Contact buttons**
+    - I verified that clicking the contact buttons in the modals would result in the modal being closed and jumping to the contact section.
 - **Contact form**
     - The contact form looked as intended on all screens with correct placeholders, labels, styling etc.
     - Error messages showed up when the form was not filled in correctly. 

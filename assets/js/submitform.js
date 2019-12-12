@@ -20,7 +20,7 @@ function submitForm(contactForm) {
         //Styles button and resets form after successfully sending form
         function(response) {
             alert("Success!", response);
-            document.getElementById("contact-btn").classList.replace("form-button", "form-button-sent");
+            document.getElementById("contact-btn").classList.replace("form-btn", "form-btn-sent");
             document.getElementById("contact-btn").innerHTML="Sent!";
             document.getElementById("contact-form").reset();
             console.log("Success!", response);

@@ -217,6 +217,19 @@ h1 {
     max-height: 500px;
 }
 
+.modal-btn {
+    display: block;
+    margin: 15px auto;
+}
+
+.modal-btn > a {
+    color: #FB4305;
+}
+
+.modal-btn > a:hover {
+    text-decoration: none;
+}
+
 .modal-close {
     color: #234099;
     float: right;
@@ -224,6 +237,13 @@ h1 {
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+.modal-close:hover {
+    color: #15265B;
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 /* Modals */
 
@@ -257,7 +277,7 @@ h1 {
     border: 1px solid #FB4305;
 }
 
-.form-button {
+.form-btn {
     color:  #FB4305;
     background-color: #234099;
     margin-bottom: 15px;
@@ -266,14 +286,14 @@ h1 {
     transition: all .3s ease-in-out;
 }
 
-.form-button-sent {
+.form-btn-sent {
     color: #234099;
     background-color: #FB4305;
     margin-bottom: 15px;
 
 }
 
-.form-button:hover {
+.form-btn:hover {
     color:  #FB4305;
     background-color: #15265B;
     -webkit-transform: scale(1.1);
@@ -306,8 +326,7 @@ h1 {
 
 .sm-icons:hover,
 .navbar-brand:hover,
-.nav-link:hover,
-.modal-close:hover {
+.nav-link:hover {
     color: #7D2102;
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
