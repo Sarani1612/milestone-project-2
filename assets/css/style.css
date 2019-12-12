@@ -261,15 +261,16 @@ h1 {
     color:  #FB4305;
     background-color: #234099;
     margin-bottom: 15px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .form-button-sent {
     color: #234099;
     background-color: #FB4305;
     margin-bottom: 15px;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+
 }
 
 .form-button:hover {

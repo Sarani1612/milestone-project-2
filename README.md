@@ -66,9 +66,9 @@ it did not seem like moving around the site would be an issue even without a nav
 
 ### Existing Features
 - **Colour scheme:** As mentioned above in the introduction, a colour scheme reminiscent of a sunset was used for this website.
-The main colour is a vivid orange, and it is used for the business name heading, header, footer and the text in the **contact** section.
-A complementary dark purplish blue colour is used for text and icons in the header and footer, the submit button and for image borders in the **destinations** section.
-A darker shade of the blue color is used as a hover over colour for the links, icons, button and image borders. An even darker, almost black, shade was used for longer texts in the **destinations** section and the modals since this is easier on the eyes.\
+A vivid orange is used for the business name heading, the text in the **contact** section and text and icons in header and footer.
+A complementary dark purplish blue colour is used as background-colour in the header, footer and the submit button and for image borders in the **destinations** section.
+A darker shade of the orange color is used as a hover over colour for the links and icons, and a darker shade of the blue is used when hovering over the button and image borders. An even darker, almost black, shade was used for longer texts in the **destinations** section and the modals since this is easier on the eyes.\
 The orange colour was also used as a partially transparent background to the sub-heading on the landing-page, and the text itself differs from other text on the website in that it is white.
 This was done to increase the contrast ratio between text and background in order to make it easier to read.
 - **Photos:** All the photos for the holiday destinations show the cities during a sunset which ties in with the colour scheme and adds to the overall theme of the website.
@@ -105,6 +105,8 @@ The following technologies were used to make the website:
 - **[favicon.io](https://favicon.io/)** was used to generate a favicon for the website
 - **[BeFunky](https://www.befunky.com/create/crop-photo/)** was used to resize images for faster loading
 - **[Colormind](http://colormind.io/)** was used to generate a colour scheme
+- **[ColorSpace](https://mycolor.space/)** was used to generate the gradient for the Destinations background
+- **[Autoprefixer](https://autoprefixer.github.io/)** was used to add vendor prefixes.
 
 ## Testing
 The HTML code was put through the [W3C Markup Validator](https://validator.w3.org/) to check for syntax errors.
@@ -190,6 +192,7 @@ These instructions and more info can be found on [this GitHub Help Page](https:/
 
 ### Code
 - the code used for opening and closing modal boxes is based on the [W3Schools' How To Make a Modal Box tutorial](https://www.w3schools.com/howto/howto_css_modals.asp)
+- the JS code for collapsing the navigation bar on small screens after clicking a link was kindly provided to me by fellow student Kitty McDonagh.
 
 ### Content
 - texts for the modals about the destinations are written by me with inspiration from the hotels', restaurants' and venues' own websites.
