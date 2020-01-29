@@ -2,7 +2,7 @@ function submitForm(contactForm) {
 
     // Initializes SDK
     (function(){
-            emailjs.init("user_ewAp2WLr4rekNLnkVnUvN");
+            emailjs.init('');
         })();
         
     // Stores user input entered into contact form
